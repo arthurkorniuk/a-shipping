@@ -1,0 +1,212 @@
+html, body {	
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+}
+header
+{
+	height: auto;
+	min-height: 100%;
+	position: relative;
+	background-image: url(../images/oleksa-2.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+header .navbar-brand
+{
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+header .navbar-brand span 
+{
+	text-transform: uppercase;
+	color: #222;
+	height: 60px;
+	letter-spacing: 5px;
+	color: white;
+	display: inline;
+	margin-left: 100px;
+}
+
+.navbar-toggle
+{
+	margin-top: 20px;
+}
+
+.navbar-header
+{
+	padding-bottom: 20px;
+}
+
+
+
+.navbar-default 
+{
+	background-color: transparent;
+	border:none;
+	border-radius: 0;
+}	
+
+.navbar-nav
+{
+	float: right;
+}
+
+
+.navbar-default .navbar-nav > li > a 
+{
+	color: orange;
+	margin-top: 10px;
+	font-size: 15px;
+	letter-spacing:0px;
+	text-transform: uppercase;
+	color: #ccc;
+}
+.navbar-default .navbar-nav > li > span 
+{
+	color: #aaa;
+	font-size: 10.5px;
+	padding-left: 15px;
+}
+
+.navbar-default .navbar-nav > li > a.tel 
+{
+	color: #FBBF30;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 768px)
+{
+	.navbar-nav
+	{
+		float: none;
+		text-align: center;
+	}
+}
+
+header .pre-title
+{
+	margin-top: 15%;
+	margin-bottom: 20px;
+	color: #eee;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+	text-align:center;
+	font-size: 14px;
+	
+}
+header h1 
+{
+	color: #f1f1f1;
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0px;
+}
+
+
+.oleksa {
+	border: 1px solid;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	background-color:#A5EFFA;
+}
+
+
+.oleksa h1 {
+	text-align: center;
+}
+
+.oleksa img{
+	float: left;
+	margin-top:80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 0px;
+	border: 5px solid gray; 
+}
+.oleksa p{
+	text-align: justify;
+	margin: 20px;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.sign {
+	width: 400px;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin: 15px;
+    border: 1px solid #333;
+    background: #f0f0f0;
+   }
+   .sign figcaption {
+    margin: 0 auto 5px;
+   }
+
+.tvoru{
+	margin-left: 400px;
+	align-items: center;
+}
+footer 
+{
+	text-decoration: none;
+	padding-top: 50px;
+	background: #333;
+}
+footer .contacts
+{
+	padding-bottom: 0px;
+	border-bottom: 1px solid rgba(241, 241, 241, 0.5);
+
+}
+
+footer .contacts .tech
+{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #eee;
+	font-size: 24px;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+footer .contacts .desc
+{
+	text-align: center;
+	margin-bottom: 15px;
+	color: #bbb;
+	font-size: 16px;
+}
+
+
+footer .contacts .note 
+{
+	color: #FBBF30;
+}
+footer .copyright 
+{
+	padding-top: 25px;
+}
+
+footer .copyright .copy 
+{
+	color: #ccc;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 25px;
+}
